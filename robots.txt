@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://kouhara3.github.io/sitemap.xml 
+Sitemap: http://kouhara3.com/sitemap.xml 

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Test | My Octopress Blog]]></title>
-  <link href="http://kouhara3.github.io/blog/categories/test/atom.xml" rel="self"/>
-  <link href="http://kouhara3.github.io/"/>
-  <updated>2017-11-27T23:38:56+09:00</updated>
-  <id>http://kouhara3.github.io/</id>
+  <title><![CDATA[Category: Test | 高小原的博客]]></title>
+  <link href="http://kouhara3.com/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://kouhara3.com/"/>
+  <updated>2017-11-28T00:05:26+09:00</updated>
+  <id>http://kouhara3.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[高小原]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Post Title]]></title>
-    <link href="http://kouhara3.github.io/blog/2017/11/27/post-title/"/>
+    <link href="http://kouhara3.com/blog/20171127/post-title.html"/>
     <updated>2017-11-27T23:30:01+09:00</updated>
-    <id>http://kouhara3.github.io/blog/2017/11/27/post-title</id>
+    <id>http://kouhara3.com/blog/20171127/post-title</id>
     <content type="html"><![CDATA[<p>这是我的第一篇文章
 从今天开始要记录下自己的学习历程</p>
 ]]></content>
