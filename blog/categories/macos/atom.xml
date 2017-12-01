@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[高小原的博客]]></title>
-  <link href="http://kouhara3.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Macos | 高小原的博客]]></title>
+  <link href="http://kouhara3.com/blog/categories/macos/atom.xml" rel="self"/>
   <link href="http://kouhara3.com/"/>
   <updated>2017-12-01T23:19:59+09:00</updated>
   <id>http://kouhara3.com/</id>
@@ -70,16 +70,6 @@
 
 <p>vagrant status
 ···</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[从0开始。。。]]></title>
-    <link href="http://kouhara3.com/blog/20171127/post-title.html"/>
-    <updated>2017-11-27T23:30:01+09:00</updated>
-    <id>http://kouhara3.com/blog/20171127/post-title</id>
-    <content type="html"><![CDATA[<p>这是我的第一篇文章
-从今天开始要记录下自己的学习历程</p>
 ]]></content>
   </entry>
   

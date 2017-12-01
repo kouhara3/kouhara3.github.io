@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing.html</loc>
+<lastmod>2017-12-01T22:43:49+09:00</lastmod>
+</url>
+<url>
 <loc>http://kouhara3.com/blog/20171127/post-title.html</loc>
 <lastmod>2017-11-27T23:30:01+09:00</lastmod>
 </url>
@@ -12,5 +16,11 @@
 </url>
 <url>
 <loc>http://kouhara3.com/blog/categories/test/</loc>
+</url>
+<url>
+<loc>http://kouhara3.com/blog/categories/macos/</loc>
+</url>
+<url>
+<loc>http://kouhara3.com/blog/categories/ben-di-kai-fa-huan-jing/</loc>
 </url>
 </urlset>

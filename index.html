@@ -93,6 +93,94 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2017-12-01T22:43:49+09:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+        
+      </p>
+    
+    
+      <h2 class="entry-title" itemprop="name headline"><a href="/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing.html" itemprop="url">MacOS搭建本地开发环境</a></h2>
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description"><h2>在Mac机上安装下面两个软件</h2>
+
+<ol>
+<li>VirtualBox</li>
+<li>Vagrant</li>
+</ol>
+
+
+<p>···</p>
+
+<h1>安装vagrant的插件</h1>
+
+<h1>VirtualBox 5.1.22 以后的版本的话会有错误出现，不要执行下面的命令</h1>
+
+<p>vagrant plugin install vagrant-vbguest</p>
+
+<h1>先移动到主目录</h1>
+
+<p>cd</p>
+
+<h1>创建虚拟机文件的目录文件夹：MyVagrant</h1>
+
+<p>mkdir MyVagrant</p>
+
+<h1>转到虚拟文件夹中</h1>
+
+<p>cd MyVagrant</p>
+
+<h1>创建一个名为MyCentOS的虚拟子文件夹</h1>
+
+<p>mkdir MyCentOS</p>
+
+<h1>移动到虚拟子文件夹中去</h1>
+
+<p>cd MyCentOS</p>
+
+<h1>创建初始化文件Vagrantfile</h1>
+
+<p>vagrant init bento/centos-6.8</p>
+
+<h1>编辑Vagrantfile，设定虚拟机的IP为192.168.33.10</h1>
+
+<p>sed -i &lsquo;&rsquo; -e &rsquo;s/# config.vm.network &ldquo;private_network&rdquo;, ip: &ldquo;192.168.33.10&rdquo;/config.vm.network &ldquo;private_network&rdquo;, ip: &ldquo;192.168.33.10&rdquo;/&lsquo; Vagrantfile</p>
+
+<h1>启动虚拟机</h1>
+
+<p>vagrant up</p>
+
+<h1>确认虚拟机的状态</h1>
+
+<p>vagrant status
+···</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2017-11-27T23:30:01+09:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
         
       </p>
