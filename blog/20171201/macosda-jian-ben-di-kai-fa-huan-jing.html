@@ -132,50 +132,67 @@
 </ol>
 
 
-<p>···</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'># 安装vagrant的插件
+</span><span class='line'># VirtualBox 5.1.22 以后的版本的话会有错误出现，不要执行下面的命令
+</span><span class='line'>vagrant plugin install vagrant-vbguest
+</span><span class='line'>
+</span><span class='line'># 先移动到主目录
+</span><span class='line'>cd
+</span><span class='line'>
+</span><span class='line'># 创建虚拟机文件的目录文件夹：MyVagrant
+</span><span class='line'>mkdir MyVagrant
+</span><span class='line'>
+</span><span class='line'># 转到虚拟文件夹中
+</span><span class='line'>cd MyVagrant
+</span><span class='line'>
+</span><span class='line'># 创建一个名为MyCentOS的虚拟子文件夹
+</span><span class='line'>mkdir MyCentOS
+</span><span class='line'>
+</span><span class='line'># 移动到虚拟子文件夹中去
+</span><span class='line'>cd MyCentOS
+</span><span class='line'>
+</span><span class='line'># 创建初始化文件Vagrantfile
+</span><span class='line'>vagrant init bento/centos-6.8
+</span><span class='line'>
+</span><span class='line'># 编辑Vagrantfile，设定虚拟机的IP为192.168.33.10
+</span><span class='line'>sed -i '' -e 's/# config.vm.network "private_network", ip: "192.168.33.10"/config.vm.network "private_network", ip: "192.168.33.10"/' Vagrantfile
+</span><span class='line'>
+</span><span class='line'># 启动虚拟机
+</span><span class='line'>vagrant up
+</span><span class='line'>
+</span><span class='line'># 确认虚拟机的状态
+</span><span class='line'>vagrant status</span></code></pre></td></tr></table></div></figure>
 
-<h1>安装vagrant的插件</h1>
-
-<h1>VirtualBox 5.1.22 以后的版本的话会有错误出现，不要执行下面的命令</h1>
-
-<p>vagrant plugin install vagrant-vbguest</p>
-
-<h1>先移动到主目录</h1>
-
-<p>cd</p>
-
-<h1>创建虚拟机文件的目录文件夹：MyVagrant</h1>
-
-<p>mkdir MyVagrant</p>
-
-<h1>转到虚拟文件夹中</h1>
-
-<p>cd MyVagrant</p>
-
-<h1>创建一个名为MyCentOS的虚拟子文件夹</h1>
-
-<p>mkdir MyCentOS</p>
-
-<h1>移动到虚拟子文件夹中去</h1>
-
-<p>cd MyCentOS</p>
-
-<h1>创建初始化文件Vagrantfile</h1>
-
-<p>vagrant init bento/centos-6.8</p>
-
-<h1>编辑Vagrantfile，设定虚拟机的IP为192.168.33.10</h1>
-
-<p>sed -i &lsquo;&rsquo; -e &rsquo;s/# config.vm.network &ldquo;private_network&rdquo;, ip: &ldquo;192.168.33.10&rdquo;/config.vm.network &ldquo;private_network&rdquo;, ip: &ldquo;192.168.33.10&rdquo;/&lsquo; Vagrantfile</p>
-
-<h1>启动虚拟机</h1>
-
-<p>vagrant up</p>
-
-<h1>确认虚拟机的状态</h1>
-
-<p>vagrant status
-···</p>
 </div>
 
 
