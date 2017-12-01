@@ -4,7 +4,7 @@
   <title><![CDATA[分类：vagrant | 一亩三分地]]></title>
   <link href="http://kouhara3.com/blog/categories/vagrant/atom.xml" rel="self"/>
   <link href="http://kouhara3.com/"/>
-  <updated>2017-12-01T23:47:36+09:00</updated>
+  <updated>2017-12-01T23:54:58+09:00</updated>
   <id>http://kouhara3.com/</id>
   <author>
     <name><![CDATA[高小原]]></name>
@@ -18,29 +18,22 @@
     <link href="http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing.html"/>
     <updated>2017-12-01T22:43:49+09:00</updated>
     <id>http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing</id>
-    <content type="html"><![CDATA[<h2>备忘一下而已</h2>
-
+    <content type="html"><![CDATA[<h2 id="section">备忘一下而已</h2>
 <p>通过vagrant命令控制虚拟机
-```</p>
+```
+# 重新加载vagrantfile
+vagrant reload</p>
 
-<h1>重新加载vagrantfile</h1>
-
-<p>vagrant reload</p>
-
-<h1>启动虚拟机</h1>
-
+<h1 id="section-1">启动虚拟机</h1>
 <p>vagrant up</p>
 
-<h1>确认虚拟机的状态</h1>
-
+<h1 id="section-2">确认虚拟机的状态</h1>
 <p>vagrant status</p>
 
-<h1>一时停止</h1>
-
+<h1 id="section-3">一时停止</h1>
 <p>vagrant suspend</p>
 
-<h1>关闭</h1>
-
+<h1 id="section-4">关闭</h1>
 <p>vagrant halt</p>
 
 <p>```</p>
