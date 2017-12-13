@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[一亩三分地]]></title>
+  <link href="http://kouhara3.com/atom.xml" rel="self"/>
+  <link href="http://kouhara3.com/"/>
+  <updated>2017-12-13T21:03:37+09:00</updated>
+  <id>http://kouhara3.com/</id>
+  <author>
+    <name><![CDATA[高小原]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[测试一段公式]]></title>
+    <link href="http://kouhara3.com/blog/20171201/ce-shi-%5B%3F%5D-duan-gong-shi.html"/>
+    <updated>2017-12-01T23:54:25+09:00</updated>
+    <id>http://kouhara3.com/blog/20171201/ce-shi-[?]-duan-gong-shi</id>
+    <content type="html"><![CDATA[<script type="math/tex; mode=display">f'\left( x\right) = \lim _{x\rightarrow 0}\dfrac {f\left( x+\Delta x\right) - f\left( x\right)}{\Delta x}</script>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Vagrant命令的备忘]]></title>
+    <link href="http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing.html"/>
+    <updated>2017-12-01T22:43:49+09:00</updated>
+    <id>http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing</id>
+    <content type="html"><![CDATA[<h2 id="section">备忘一下而已</h2>
+<p>通过vagrant命令控制虚拟机</p>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+</pre></td><td class="code"><pre><code class=""><span class="line"># 重新加载vagrantfile
+</span><span class="line">vagrant reload
+</span><span class="line">
+</span><span class="line"># 启动虚拟机
+</span><span class="line">vagrant up
+</span><span class="line">
+</span><span class="line"># 确认虚拟机的状态
+</span><span class="line">vagrant status
+</span><span class="line">
+</span><span class="line"># 一时停止
+</span><span class="line">vagrant suspend
+</span><span class="line">
+</span><span class="line"># 关闭
+</span><span class="line">vagrant halt
+</span></code></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[从0开始。。。]]></title>
+    <link href="http://kouhara3.com/blog/20171127/post-title.html"/>
+    <updated>2017-11-27T23:30:01+09:00</updated>
+    <id>http://kouhara3.com/blog/20171127/post-title</id>
+    <content type="html"><![CDATA[<p>这是我的第一篇文章
+从今天开始要记录下自己的学习历程</p>
+]]></content>
+  </entry>
+  
+</feed>
