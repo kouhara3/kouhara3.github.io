@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[分类：vagrant | 一亩三分地]]></title>
+  <link href="http://kouhara3.com/blog/categories/vagrant/atom.xml" rel="self"/>
+  <link href="http://kouhara3.com/"/>
+  <updated>2017-12-02T01:14:57+09:00</updated>
+  <id>http://kouhara3.com/</id>
+  <author>
+    <name><![CDATA[高小原]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Vagrant命令的备忘]]></title>
+    <link href="http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing.html"/>
+    <updated>2017-12-01T22:43:49+09:00</updated>
+    <id>http://kouhara3.com/blog/20171201/macosda-jian-ben-di-kai-fa-huan-jing</id>
+    <content type="html"><![CDATA[<h2 id="section">备忘一下而已</h2>
+<p>通过vagrant命令控制虚拟机
+```
+# 重新加载vagrantfile
+vagrant reload</p>
+
+<h1 id="section-1">启动虚拟机</h1>
+<p>vagrant up</p>
+
+<h1 id="section-2">确认虚拟机的状态</h1>
+<p>vagrant status</p>
+
+<h1 id="section-3">一时停止</h1>
+<p>vagrant suspend</p>
+
+<h1 id="section-4">关闭</h1>
+<p>vagrant halt</p>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>
