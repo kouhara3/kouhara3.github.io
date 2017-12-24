@@ -122,6 +122,64 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2017-12-24T13:51:20+09:00"  data-updated="true" itemprop="datePublished dateCreated">2017 年12 月24 日</time>
+        
+      </p>
+    
+    
+      <h2 class="entry-title" itemprop="name headline"><a href="/blog/20171224/suo-duan-macli-mian-de-ming-ling.html" itemprop="url">缩短Mac里面的命令</a></h2>
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description"><p>首先移动到自己的Home Directory
+用文本编辑器打开 .bashrc</p>
+
+<p>进行alias定义，</p>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">alias py3='python3'</span></code></pre></td></tr></table></div></figure>
+<p>·bashrc文件保存</p>
+
+<p>然后编辑相同目录下的 .bash_profile文件
+让编辑后的 .bashrc文件生效</p>
+
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">source ~/.bashrc</span></code></pre></td></tr></table></div></figure>
+
+<p>编辑完后，文件保存。</p>
+
+<p>然后在Ternimal里面执行以下命令
+使之编辑后的文件生效</p>
+<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">source .bash_profile</span></code></pre></td></tr></table></div></figure>
+<p>Mac的Terminal启动的时候，先是读取 ~/.bash_profile 和 /etc/profile
+然后让.bash_profile每回在被启动的时候读区里面在.bashrc文件</p>
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2017-12-01T23:54:25+09:00"  data-updated="true" itemprop="datePublished dateCreated">2017 年12 月1 日</time>
         
       </p>
