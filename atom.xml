@@ -4,7 +4,7 @@
   <title><![CDATA[一亩三分地]]></title>
   <link href="http://kouhara3.com/atom.xml" rel="self"/>
   <link href="http://kouhara3.com/"/>
-  <updated>2017-12-24T22:54:56+09:00</updated>
+  <updated>2018-01-10T23:20:32+09:00</updated>
   <id>http://kouhara3.com/</id>
   <author>
     <name><![CDATA[高小原]]></name>
@@ -12,6 +12,94 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[ポート番号]]></title>
+    <link href="http://kouhara3.com/blog/20180110/potofan-hao.html"/>
+    <updated>2018-01-10T23:13:13+09:00</updated>
+    <id>http://kouhara3.com/blog/20180110/potofan-hao</id>
+    <content type="html"><![CDATA[<p>ポート番号とは
+ポート番号とは、TCP/IPで通信するアプリケーションを識別する為の識別番号です。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Python学习（关于list）]]></title>
+    <link href="http://kouhara3.com/blog/20171226/pythonxue-xi-(guan-yu-list).html"/>
+    <updated>2017-12-26T23:21:12+09:00</updated>
+    <id>http://kouhara3.com/blog/20171226/pythonxue-xi-(guan-yu-list)</id>
+    <content type="html"><![CDATA[<figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+<span class="line-number">28</span>
+<span class="line-number">29</span>
+<span class="line-number">30</span>
+<span class="line-number">31</span>
+<span class="line-number">32</span>
+<span class="line-number">33</span>
+<span class="line-number">34</span>
+<span class="line-number">35</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">z = ['a','b','c']
+</span><span class="line">x = [1, 2, 3.4, "a", z]
+</span><span class="line">a_in_list = 'a' in z
+</span><span class="line">d_in_list = 'd' in z
+</span><span class="line">print("a_in_list {0}".format(a_in_list))
+</span><span class="line">print("d_in_list {0}".format(d_in_list))
+</span><span class="line">print("len(z) {0}".format(len(z)))
+</span><span class="line">print("max(z) {0}".format(max(z)))
+</span><span class="line">print("min(z) {0}".format(min(z)))
+</span><span class="line">print("x[1] {0}".format(x[1]))
+</span><span class="line">print("x[-1] {0}".format(x[-1]))
+</span><span class="line">print("x[1:3] {0}".format(x[1:3]))
+</span><span class="line">print("x[1:] {0}".format(x[1:]))
+</span><span class="line">print("x[:3] {0}".format(x[:3]))
+</span><span class="line">x[1:4] = ["taro","jiro"]
+</span><span class="line">print("changed x {0}".format(x))
+</span><span class="line">a = z + x
+</span><span class="line">print("a {0}".format(a))
+</span><span class="line">
+</span><span class="line">y = [] #create empty list
+</span><span class="line">y.append("spam")
+</span><span class="line">print("y {0}".format(y))
+</span><span class="line">y.append("ham")
+</span><span class="line">print("y {0}".format(y))
+</span><span class="line">y2 = ["egg","ham"]
+</span><span class="line">y.append(y2)
+</span><span class="line">y.remove('ham')
+</span><span class="line">print("y {0}".format(y))
+</span><span class="line">
+</span><span class="line">z.reverse()
+</span><span class="line">print("z {0}".format(z))
+</span><span class="line">
+</span><span class="line">sortlist = [0,1,3,7,5]
+</span><span class="line">sortlist.sort()
+</span><span class="line">print("sort {0}".format(sortlist))</span></code></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[缩短Mac里面的命令]]></title>

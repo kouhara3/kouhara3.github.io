@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://kouhara3.com/blog/20180110/potofan-hao.html</loc>
+<lastmod>2018-01-10T23:13:13+09:00</lastmod>
+</url>
+<url>
+<loc>http://kouhara3.com/blog/20171226/pythonxue-xi-(guan-yu-list).html</loc>
+<lastmod>2017-12-26T23:21:12+09:00</lastmod>
+</url>
+<url>
 <loc>http://kouhara3.com/blog/20171224/suo-duan-macli-mian-de-ming-ling.html</loc>
 <lastmod>2017-12-24T13:51:20+09:00</lastmod>
 </url>
@@ -36,6 +44,9 @@
 </url>
 <url>
 <loc>http://kouhara3.com/blog/categories/vagrant/</loc>
+</url>
+<url>
+<loc>http://kouhara3.com/blog/categories/network/</loc>
 </url>
 <url>
 <loc>http://kouhara3.com/about.html</loc>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[分类：network | 一亩三分地]]></title>
+  <link href="http://kouhara3.com/blog/categories/network/atom.xml" rel="self"/>
+  <link href="http://kouhara3.com/"/>
+  <updated>2018-01-10T23:20:32+09:00</updated>
+  <id>http://kouhara3.com/</id>
+  <author>
+    <name><![CDATA[高小原]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[ポート番号]]></title>
+    <link href="http://kouhara3.com/blog/20180110/potofan-hao.html"/>
+    <updated>2018-01-10T23:13:13+09:00</updated>
+    <id>http://kouhara3.com/blog/20180110/potofan-hao</id>
+    <content type="html"><![CDATA[<p>ポート番号とは
+ポート番号とは、TCP/IPで通信するアプリケーションを識別する為の識別番号です。</p>
+]]></content>
+  </entry>
+  
+</feed>
